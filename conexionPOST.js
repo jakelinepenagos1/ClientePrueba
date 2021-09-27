@@ -32,4 +32,5 @@ function enviarDatos(){
     fetch(URL,parametros)
     .then(repuesta=>repuesta.json())
     .then(repuesta=>console.log(repuesta))
+    .catch(error=>console.log(error))
 }
